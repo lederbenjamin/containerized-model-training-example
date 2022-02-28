@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ml_trainer"
+version = "0.1.0"
+description = "a project to train special k models in a containerized fashion"
+authors = ["benjaminleder <lederbenjamin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+scikit-learn = "0.24.2"
+special-k = "0.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

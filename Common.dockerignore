@@ -1,0 +1,8 @@
+# Common
+README.md
+Dockerfile
+model_train.sh
+models
+models/*
+# JetBrains
+.idea
